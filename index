@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio website</title>
+<link rel="stylesheet"  href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:ital,wght@0,100;0 ,200;0,300;0,400;0,500; 0,600;
+ 0,700;1,100;1,200;1,300;1,400;1,500; 1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+ integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVi
+ sanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <h2 class = "logo"> Portfo<span>lio</span></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#">Contact me</a></li>
+            </ul>
+
+        </nav>
+        <div class="content">
+            <h4>Hello,my name is</h4>
+            <h1>Jigyasa<span>Choudhari</span></h1>
+            <h3>Looking for an opportunity in a reputed organization<br> which will
+                 help me deliver my best and upgrade my skills<br> in engineering and meet the demands of the organization.</h3>
+            <div class="newslatter">
+                <form>
+                    <input type ="email" name="email" id="mail" placeholder="Enter you Email">
+                    <input type ="submit" name="submit" value="Lets start">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+    <section class="about">
+        <div class="main">
+            <img class="ayush" src="WhatsApp Image 2024-02-04 at 8.33.04 PM.jpeg">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Developer<span> & Designer</span> </h5>
+                <p>
+                    Student of Artificial Intelligence and Data Science aspiring to upgrade my skills in web development
+                     and app design and meet the demands of a dynamic industry.Ready to take on challenges and create 
+                     innovative solutions!
+                </p>
+                <button type="button">Let's Talk</button>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    </div>
+    <div id=skills>
+    <div class="skills">
+        <div class="title">
+            <h2>My Skills</h2>
+
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-code"></i>
+                <h5>
+                    web development
+                </h5>
+                <div class="pra">
+                    <p>
+                        Every website should be built with two primary goals: Firstly,it needs to work across all devices. 
+                        Secondly,it needs to be fast as possible.</p>
+                    <p style="text-align: center;">
+                    <a class="button" href="#">Read More</a></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-regular fa-user"></i>
+                <h5>
+                    Graphic Designer
+                </h5>
+                <div class="pra">
+                    <p>
+                        As a graphic designer with no prior experience, my objective is to
+                         acquire and develop skills in software such as canvas and Adobe Creative Suites.
+ 
+                          I aim to be a collaborative team member,
+                           willing to learn and contribute to projects.
+                    </p>
+                    <p style="text-align: center;">
+                    <a class="button" href="#">Read More</a></p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-mobile-button"></i>
+                <h5>
+                    App development
+                </h5>
+                <div class="pra">
+                    <p>
+                        I aim to become proficient in popular programming languages 
+                        and tools such as Java, Swift, React Native, and Flutter. Ultimately,
+                         I want to build functional and user-friendly apps that solve real-world problems.</p>
+                    <p style="text-align: center;">
+                    <a class="button" href="#">Read More</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+    <!------------------contact-------------------->
+    <footer>
+        <p>Jigyasa Choudhari</p>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </div> 
+    </footer>
+</body>
+ </html>
